@@ -1,0 +1,56 @@
+/* div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    display: inline-block;
+
+} */
+
+/* 
+a {
+    display: inline-block;
+} */
+
+/* section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+/* 
+#m1 {
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.a1 {
+    display: flex;
+} */
+
+/* position properties 
+1. relative
+2.absolute 
+3.fixed
+4.static
+5.sticky
+*/
+
+/* Transition and transform effect 
+
+*/
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate(30px 40px); */
+}
+
+.circle:hover {
+    /* width: 300px; */
+    transform: scale(0.7);
+}

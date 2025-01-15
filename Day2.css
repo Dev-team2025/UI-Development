@@ -1,0 +1,84 @@
+/* Bcakground Properties :
+1. Background color: 
+selector{
+background-color:"color code";
+}
+
+2. Background Image
+3. Background Repeat: repeat-x, repeat-y , no-repeat
+4. Background size :px , cover, auto,%
+5. Background: linear gradient and radial gradient
+*/
+body {
+    /* background-color: rgb(0, 255, 21); */
+    /* background-image: url('../../image.png'); local storage*/
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZT0qh99IVOiZ1NdoCsrP4_mSQzuAFRBVzw&s');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* background: linear-gradient(to right, red, yellow, green, grey); */
+    /* background: radial-gradient(red, yellow, green);
+    background-attachment: scroll; */
+}
+
+h1 {
+    /* background-color: bisque; */
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    /* padding: 20px 100px 100px 100px; */
+    /* border: 3px solid black; */
+    /* border: 3px dotted black; */
+    /* border: 3px dashed black; */
+    /* margin-bottom: 200px; */
+    /* margin-top: 200px; */
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    /* padding: 20px;
+    border: 7px dotted blue;
+    outline: 3px solid red;
+    outline-offset: 10px; */
+}
+
+/* Selectors
+1. Element selector : we are selecting one perticular element to style then we will call it as element selector 
+syntax:
+element{
+property : value;
+}
+
+2.class selector: to access the class selector we will make use of . operator 
+syntax:
+.class_name{
+property:value;
+}
+
+3. id selector  : in order to access id selector we will use #
+syntax:
+#id_name{
+property:value;
+}
+
+
+4. universal selector :*
+5. group selector 
+*/
+/* .a {
+    color: red;
+}
+
+#b {
+    color: blue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+} */
+
+p,
+h3,
+h1 {
+    color: brown;
+}
